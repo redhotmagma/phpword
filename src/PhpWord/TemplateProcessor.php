@@ -943,22 +943,11 @@ class TemplateProcessor
      */
     public function replaceBlock($blockname, $replacement): void
     {
-        $matches = [];
-        $escapedMacroOpeningChars = preg_quote(self::$macroOpeningChars);
-        $escapedMacroClosingChars = preg_quote(self::$macroClosingChars);
-        preg_match(
-            '/(<\?xml.*)(<w:p.*>' . $escapedMacroOpeningChars . $blockname . $escapedMacroClosingChars . '<\/w:.*?p>)(.*)(<w:p.*' . $escapedMacroOpeningChars . '\/' . $blockname . $escapedMacroClosingChars . '<\/w:.*?p>)/is',
-            $this->tempDocumentMainPart,
-            $matches
+        $this->tempDocumentMainPart = preg_replace(
+            '/(\${' . $blockname . '})(.*?)(\${\/' . $blockname . '})/is',
+            $replacement,
+            $this->tempDocumentMainPart
         );
-
-        if (isset($matches[3])) {
-            $this->tempDocumentMainPart = str_replace(
-                $matches[2] . $matches[3] . $matches[4],
-                $replacement,
-                $this->tempDocumentMainPart
-            );
-        }
     }
 
     /**
