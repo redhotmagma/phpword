@@ -54,7 +54,7 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -three phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/phpoffice.html" class="">PhpOffice</a>
@@ -67,7 +67,7 @@
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -75,14 +75,14 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
@@ -124,11 +124,12 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/FormField.php"><a href="files/src-phpword-writer-word2007-element-formfield.html"><abbr title="src/PhpWord/Writer/Word2007/Element/FormField.php">FormField.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
             <p class="phpdocumentor-summary">FormField element writer.</p>
+
 
     <section class="phpdocumentor-description"><p>Note: DropDown is active when document protection is set to <code class="prettyprint">forms</code></p>
 </section>
@@ -161,11 +162,13 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>(PHPMD.UnusedPrivateMethod)</p>
+                                                 <section class="phpdocumentor-description"><p>(&quot;PHPMD.UnusedPrivateMethod&quot;)</p>
 </section>
 
                                     </dd>
                                             </dl>
+
+
 
 
 
@@ -188,7 +191,7 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#constant_FILLER_LENGTH">FILLER_LENGTH</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#constant_FILLER_LENGTH">FILLER_LENGTH</a>
     <span>
         &nbsp;= 30                            </span>
 </dt>
@@ -203,31 +206,17 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_part">$part</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_part">$part</a>
     <span>
                         &nbsp;: null|<a href="classes/PhpOffice-PhpWord-Writer-Word2007-Part-AbstractPart.html"><abbr title="\PhpOffice\PhpWord\Writer\Word2007\Part\AbstractPart">AbstractPart</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_withoutP">$withoutP</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_withoutP">$withoutP</a>
     <span>
                         &nbsp;: bool            </span>
 </dt>
 <dd>Without paragraph.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_element">$element</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpOffice-PhpWord-Element-AbstractElement.html"><abbr title="\PhpOffice\PhpWord\Element\AbstractElement">AbstractElement</abbr></a>            </span>
-</dt>
-<dd>Element.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_xmlWriter">$xmlWriter</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpOffice-PhpWord-Shared-XMLWriter.html"><abbr title="\PhpOffice\PhpWord\Shared\XMLWriter">XMLWriter</abbr></a>            </span>
-</dt>
-<dd>XML writer.</dd>
 
     </dl>
 
@@ -238,145 +227,137 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Create new instance.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getPart">getPart()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getPart">getPart()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Part-AbstractPart.html"><abbr title="\PhpOffice\PhpWord\Writer\Word2007\Part\AbstractPart">AbstractPart</abbr></a>|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_setPart">setPart()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_setPart">setPart()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_write">write()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_write">write()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Write element.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_endElementP">endElementP()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_endElementP">endElementP()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>End w:p DOM element.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getElement">getElement()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getElement">getElement()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpOffice-PhpWord-Element-AbstractElement.html"><abbr title="\PhpOffice\PhpWord\Element\AbstractElement">AbstractElement</abbr></a>    </span>
 </dt>
 <dd>Get element.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getText">getText()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getText">getText()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 <dd>Convert text to valid format.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getXmlWriter">getXmlWriter()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getXmlWriter">getXmlWriter()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpOffice-PhpWord-Shared-XMLWriter.html"><abbr title="\PhpOffice\PhpWord\Shared\XMLWriter">XMLWriter</abbr></a>    </span>
 </dt>
 <dd>Get XML Writer.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_startElementP">startElementP()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_startElementP">startElementP()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Start w:p DOM element.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-Text.html#method_writeClosingTrackChange">writeClosingTrackChange()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-Text.html#method_writeClosingTrackChange">writeClosingTrackChange()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Write ending.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeCommentRangeEnd">writeCommentRangeEnd()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeCommentRangeEnd">writeCommentRangeEnd()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Writes the w:commentRangeEnd DOM element.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeCommentRangeStart">writeCommentRangeStart()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeCommentRangeStart">writeCommentRangeStart()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Writes the w:commentRangeStart DOM element.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeFontStyle">writeFontStyle()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeFontStyle">writeFontStyle()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Write ending.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-Text.html#method_writeOpeningTrackChange">writeOpeningTrackChange()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-Text.html#method_writeOpeningTrackChange">writeOpeningTrackChange()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Write opening of changed element.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeParagraphStyle">writeParagraphStyle()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeParagraphStyle">writeParagraphStyle()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Write ending.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeText">writeText()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeText">writeText()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Write an XML text, this will call text() or writeRaw() depending on the value of Settings::isOutputEscapingEnabled().</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeCheckBox">writeCheckBox()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeCheckBox">writeCheckBox()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Write checkbox.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeDropDown">writeDropDown()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeDropDown">writeDropDown()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Write dropdown.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeTextInput">writeTextInput()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeTextInput">writeTextInput()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Write textinput.</dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeTextStyle">writeTextStyle()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Write text style.</dd>
-
     </dl>
-
 
 
 
@@ -397,10 +378,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/FormField.php"><a href="files/src-phpword-writer-word2007-element-formfield.html"><abbr title="src/PhpWord/Writer/Word2007/Element/FormField.php">FormField.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -430,6 +412,8 @@
                                     </dd>
                                             </dl>
 
+    
+
 </article>
             </section>
 
@@ -445,31 +429,36 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_part">
         $part
         <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_part" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">null|<a href="classes/PhpOffice-PhpWord-Writer-Word2007-Part-AbstractPart.html"><abbr title="\PhpOffice\PhpWord\Writer\Word2007\Part\AbstractPart">AbstractPart</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">null|<a href="classes/PhpOffice-PhpWord-Writer-Word2007-Part-AbstractPart.html"><abbr title="\PhpOffice\PhpWord\Writer\Word2007\Part\AbstractPart">AbstractPart</abbr></a></span>
     <span class="phpdocumentor-signature__name">$part</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -478,27 +467,28 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_withoutP">
         $withoutP
         <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_withoutP" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Without paragraph.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">bool</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">bool</span>
     <span class="phpdocumentor-signature__name">$withoutP</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
@@ -506,72 +496,8 @@
     
     
 
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_element">
-        $element
-        <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_element" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">45</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Element.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Element-AbstractElement.html"><abbr title="\PhpOffice\PhpWord\Element\AbstractElement">AbstractElement</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$element</span>
-    </code>
-
-    
-    
     
 
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_xmlWriter">
-        $xmlWriter
-        <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_xmlWriter" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">38</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">XML writer.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Shared-XMLWriter.html"><abbr title="\PhpOffice\PhpWord\Shared\XMLWriter">XMLWriter</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$xmlWriter</span>
-    </code>
-
-    
-    
     
 
 </article>
@@ -597,7 +523,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">68</span>
 
     </aside>
 
@@ -609,6 +535,7 @@
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -638,6 +565,8 @@
     
 
     
+
+    
 </article>
                     <article
         class="phpdocumentor-element
@@ -653,7 +582,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">241</span>
+    <span class="phpdocumentor-element-found-in__line">231</span>
 
     </aside>
 
@@ -666,6 +595,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -688,7 +620,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">234</span>
+    <span class="phpdocumentor-element-found-in__line">224</span>
 
     </aside>
 
@@ -700,6 +632,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -710,6 +643,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -733,7 +668,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/FormField.php"><a href="files/src-phpword-writer-word2007-element-formfield.html"><abbr title="src/PhpWord/Writer/Word2007/Element/FormField.php">FormField.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -747,6 +682,9 @@
         </div>
     
     
+    
+    
+
     
 
     
@@ -765,7 +703,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">116</span>
+    <span class="phpdocumentor-element-found-in__line">115</span>
 
     </aside>
 
@@ -779,6 +717,9 @@
         </div>
     
     
+    
+    
+
     
 
     
@@ -797,7 +738,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
+    <span class="phpdocumentor-element-found-in__line">90</span>
 
     </aside>
 
@@ -811,6 +752,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -833,7 +777,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">213</span>
+    <span class="phpdocumentor-element-found-in__line">203</span>
 
     </aside>
 
@@ -846,6 +790,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -856,6 +801,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -879,7 +826,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
     </aside>
 
@@ -893,6 +840,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -915,7 +865,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 
     </aside>
 
@@ -927,6 +877,7 @@
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
     
     
@@ -947,6 +898,8 @@
                         </dl>
 
     
+
+    
 </article>
                     <article
         class="phpdocumentor-element
@@ -962,7 +915,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/Text.php"><a href="files/src-phpword-writer-word2007-element-text.html"><abbr title="src/PhpWord/Writer/Word2007/Element/Text.php">Text.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">93</span>
+    <span class="phpdocumentor-element-found-in__line">94</span>
 
     </aside>
 
@@ -976,6 +929,9 @@
         </div>
     
     
+    
+    
+
     
 
     
@@ -994,7 +950,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">143</span>
+    <span class="phpdocumentor-element-found-in__line">138</span>
 
     </aside>
 
@@ -1008,6 +964,9 @@
         </div>
     
     
+    
+    
+
     
 
     
@@ -1026,7 +985,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">127</span>
+    <span class="phpdocumentor-element-found-in__line">126</span>
 
     </aside>
 
@@ -1040,6 +999,9 @@
         </div>
     
     
+    
+    
+
     
 
     
@@ -1058,7 +1020,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">181</span>
+    <span class="phpdocumentor-element-found-in__line">171</span>
 
     </aside>
 
@@ -1072,6 +1034,9 @@
         </div>
     
     
+    
+    
+
     
 
     
@@ -1090,7 +1055,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/Text.php"><a href="files/src-phpword-writer-word2007-element-text.html"><abbr title="src/PhpWord/Writer/Word2007/Element/Text.php">Text.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -1104,6 +1069,9 @@
         </div>
     
     
+    
+    
+
     
 
     
@@ -1122,7 +1090,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">173</span>
+    <span class="phpdocumentor-element-found-in__line">163</span>
 
     </aside>
 
@@ -1136,6 +1104,9 @@
         </div>
     
     
+    
+    
+
     
 
     
@@ -1154,7 +1125,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">225</span>
+    <span class="phpdocumentor-element-found-in__line">215</span>
 
     </aside>
 
@@ -1166,6 +1137,7 @@
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1179,6 +1151,8 @@
 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1206,7 +1180,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/FormField.php"><a href="files/src-phpword-writer-word2007-element-formfield.html"><abbr title="src/PhpWord/Writer/Word2007/Element/FormField.php">FormField.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">124</span>
+    <span class="phpdocumentor-element-found-in__line">125</span>
 
     </aside>
 
@@ -1218,6 +1192,7 @@
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1255,6 +1230,8 @@
                                             </dl>
 
     
+
+    
 </article>
                     <article
         class="phpdocumentor-element
@@ -1270,7 +1247,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/FormField.php"><a href="files/src-phpword-writer-word2007-element-formfield.html"><abbr title="src/PhpWord/Writer/Word2007/Element/FormField.php">FormField.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">145</span>
+    <span class="phpdocumentor-element-found-in__line">146</span>
 
     </aside>
 
@@ -1282,6 +1259,7 @@
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1319,6 +1297,8 @@
                                             </dl>
 
     
+
+    
 </article>
                     <article
         class="phpdocumentor-element
@@ -1334,7 +1314,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/FormField.php"><a href="files/src-phpword-writer-word2007-element-formfield.html"><abbr title="src/PhpWord/Writer/Word2007/Element/FormField.php">FormField.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">110</span>
+    <span class="phpdocumentor-element-found-in__line">111</span>
 
     </aside>
 
@@ -1346,6 +1326,7 @@
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1381,48 +1362,6 @@
                                              
                                     </dd>
                                             </dl>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_writeTextStyle">
-        writeTextStyle()
-        <a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeTextStyle" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php"><a href="files/src-phpword-writer-word2007-element-abstractelement.html"><abbr title="src/PhpWord/Writer/Word2007/Element/AbstractElement.php">AbstractElement.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">191</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Write text style.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">writeTextStyle</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$styleType</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$styleType</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>Font|Paragraph</p>
-</section>
-
-            </dd>
-            </dl>
 
     
 
@@ -1541,43 +1480,40 @@
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#constant_FILLER_LENGTH">FILLER_LENGTH</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#constant_FILLER_LENGTH">FILLER_LENGTH</a></li>
                                             </ul>
                 </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_part">$part<a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_withoutP">$withoutP<a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_element">$element<a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_xmlWriter">$xmlWriter<a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html"></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_part">$part</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#property_withoutP">$withoutP</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method___construct">__construct()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getPart">getPart()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_setPart">setPart()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_write">write()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_endElementP">endElementP()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getElement">getElement()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getText">getText()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getXmlWriter">getXmlWriter()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_startElementP">startElementP()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-Text.html#method_writeClosingTrackChange">writeClosingTrackChange()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeCommentRangeEnd">writeCommentRangeEnd()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeCommentRangeStart">writeCommentRangeStart()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeFontStyle">writeFontStyle()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-Text.html#method_writeOpeningTrackChange">writeOpeningTrackChange()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeParagraphStyle">writeParagraphStyle()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeText">writeText()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeCheckBox">writeCheckBox()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeDropDown">writeDropDown()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeTextInput">writeTextInput()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeTextStyle">writeTextStyle()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getPart">getPart()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_setPart">setPart()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_write">write()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_endElementP">endElementP()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getElement">getElement()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getText">getText()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_getXmlWriter">getXmlWriter()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_startElementP">startElementP()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-Text.html#method_writeClosingTrackChange">writeClosingTrackChange()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeCommentRangeEnd">writeCommentRangeEnd()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeCommentRangeStart">writeCommentRangeStart()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeFontStyle">writeFontStyle()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-Text.html#method_writeOpeningTrackChange">writeOpeningTrackChange()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeParagraphStyle">writeParagraphStyle()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-AbstractElement.html#method_writeText">writeText()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeCheckBox">writeCheckBox()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeDropDown">writeDropDown()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Writer-Word2007-Element-FormField.html#method_writeTextInput">writeTextInput()</a></li>
                                     </ul>
             </li>
                     </ul>

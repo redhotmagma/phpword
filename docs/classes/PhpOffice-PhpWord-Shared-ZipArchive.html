@@ -54,7 +54,7 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -three phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/phpoffice.html" class="">PhpOffice</a>
@@ -67,7 +67,7 @@
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -75,14 +75,14 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
@@ -119,11 +119,12 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
             <p class="phpdocumentor-summary">ZipArchive wrapper.</p>
+
 
     <section class="phpdocumentor-description"><p>Wraps zip archive functionality of PHP ZipArchive and PCLZip. PHP ZipArchive
 properties and methods are bypassed and used as the model for the PCLZip
@@ -149,6 +150,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
 
 
+
+
 <h3 id="toc">
     Table of Contents
     <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -168,13 +171,13 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#constant_CREATE">CREATE</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#constant_CREATE">CREATE</a>
     <span>
         &nbsp;= 1                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#constant_OVERWRITE">OVERWRITE</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#constant_OVERWRITE">OVERWRITE</a>
     <span>
         &nbsp;= 8                            </span>
 </dt>
@@ -189,35 +192,35 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_filename">$filename</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_filename">$filename</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
 <dd>Archive filename (emulate ZipArchive::$filename).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_numFiles">$numFiles</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_numFiles">$numFiles</a>
     <span>
                         &nbsp;: int            </span>
 </dt>
 <dd>Number of files (emulate ZipArchive::$numFiles).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_tempDir">$tempDir</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_tempDir">$tempDir</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
 <dd>Temporary storage directory.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_usePclzip">$usePclzip</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_usePclzip">$usePclzip</a>
     <span>
                         &nbsp;: bool            </span>
 </dt>
 <dd>Use PCLZip (default behaviour).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_zip">$zip</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_zip">$zip</a>
     <span>
                         &nbsp;: <a href="classes/PclZip.html"><abbr title="\PclZip">PclZip</abbr></a>|<abbr title="\ZipArchive">ZipArchive</abbr>            </span>
 </dt>
@@ -232,115 +235,121 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method___call">__call()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method___call">__call()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Catch function calls: pass to ZipArchive or PCLZip.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Create new instance.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addFile">addFile()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addEmptyDir">addEmptyDir()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Add an empty directory to the zip archive (emulate \ZipArchive).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addFile">addFile()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addFromString">addFromString()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addFromString">addFromString()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_close">close()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_close">close()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Close the active archive.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_extractTo">extractTo()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_extractTo">extractTo()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Extract the archive contents (emulate \ZipArchive).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_getFromName">getFromName()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_getFromName">getFromName()</a>
     <span>
-                                &nbsp;: string    </span>
+                                &nbsp;: bool|string    </span>
 </dt>
 <dd>Extract file from archive by given file name (emulate \ZipArchive).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_getNameIndex">getNameIndex()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_getNameIndex">getNameIndex()</a>
     <span>
                                 &nbsp;: false|string    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_locateName">locateName()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_locateName">locateName()</a>
     <span>
                                 &nbsp;: false|int    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_open">open()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_open">open()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Open a new zip archive.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipAddFile">pclzipAddFile()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipAddFile">pclzipAddFile()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Add a new file to the zip archive (emulate \ZipArchive).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipAddFromString">pclzipAddFromString()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipAddFromString">pclzipAddFromString()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Add a new file to the zip archive from a string of raw data (emulate \ZipArchive).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipExtractTo">pclzipExtractTo()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipExtractTo">pclzipExtractTo()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Extract the archive contents (emulate \ZipArchive).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipGetFromName">pclzipGetFromName()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipGetFromName">pclzipGetFromName()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 <dd>Extract file from archive by given file name (emulate \ZipArchive).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipGetNameIndex">pclzipGetNameIndex()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipGetNameIndex">pclzipGetNameIndex()</a>
     <span>
                                 &nbsp;: bool|string    </span>
 </dt>
 <dd>Returns the name of an entry using its index (emulate \ZipArchive).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipLocateName">pclzipLocateName()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipLocateName">pclzipLocateName()</a>
     <span>
                                 &nbsp;: false|int    </span>
 </dt>
 <dd>Returns the index of the entry in the archive (emulate \ZipArchive).</dd>
 
     </dl>
-
 
 
 
@@ -361,10 +370,11 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -394,6 +404,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
                                     </dd>
                                             </dl>
 
+    
+
 </article>
                     <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_OVERWRITE">
@@ -405,10 +417,11 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -420,6 +433,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     
     
+    
+
     
 
 </article>
@@ -437,32 +452,37 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
             phpdocumentor-element
             -property
             -public
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_filename">
         $filename
         <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_filename" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Archive filename (emulate ZipArchive::$filename).</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">string</span>
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$filename</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -471,27 +491,28 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
             phpdocumentor-element
             -property
             -public
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_numFiles">
         $numFiles
         <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_numFiles" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Number of files (emulate ZipArchive::$numFiles).</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">int</span>
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$numFiles</span>
      = <span class="phpdocumentor-signature__default-value">0</span></code>
 
@@ -499,33 +520,38 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_tempDir">
         $tempDir
         <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_tempDir" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Temporary storage directory.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">string</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$tempDir</span>
     </code>
 
@@ -533,33 +559,38 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_usePclzip">
         $usePclzip
         <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_usePclzip" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">79</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Use PCLZip (default behaviour).</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">bool</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">bool</span>
     <span class="phpdocumentor-signature__name">$usePclzip</span>
      = <span class="phpdocumentor-signature__default-value">true</span></code>
 
@@ -567,38 +598,47 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_zip">
         $zip
         <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_zip" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Internal zip archive object.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PclZip.html"><abbr title="\PclZip">PclZip</abbr></a>|<abbr title="\ZipArchive">ZipArchive</abbr></span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PclZip.html"><abbr title="\PclZip">PclZip</abbr></a>|<abbr title="\ZipArchive">ZipArchive</abbr></span>
     <span class="phpdocumentor-signature__name">$zip</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -624,7 +664,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 
     </aside>
 
@@ -636,6 +676,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
         <section class="phpdocumentor-description"><p><code class="prettyprint">call_user_func_array</code> can only used for public function, hence the <code class="prettyprint">public</code> in all <code class="prettyprint">pcl...</code> methods</p>
 </section>
 
@@ -660,6 +701,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     
 
     
+
+    
 </article>
                     <article
         class="phpdocumentor-element
@@ -675,7 +718,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">84</span>
 
     </aside>
 
@@ -690,8 +733,62 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     
     
     
+    
 
     
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addEmptyDir">
+        addEmptyDir()
+        <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addEmptyDir" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">435</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Add an empty directory to the zip archive (emulate \ZipArchive).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">addEmptyDir</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dirname</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dirname</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Directory name to add to the zip archive</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -714,10 +811,11 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">addFile</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filename</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$localname = null</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">addFile</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filename</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$localname</span><span> = </span><span class="phpdocumentor-signature__argument__default-value"> = &#039;null&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -729,13 +827,15 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$localname = null</span>
+                <span class="phpdocumentor-signature__argument__name">$localname</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
+                 = <span class="phpdocumentor-signature__argument__default-value"> = &#039;null&#039;</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -771,6 +871,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -788,6 +889,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -826,22 +929,9 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_close#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    
 
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">codeCoverageIgnore</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>Can't find any test case. Uncomment when found.</p>
-</section>
-
-                                    </dd>
-                                            </dl>
+    
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -863,7 +953,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">189</span>
+    <span class="phpdocumentor-element-found-in__line">194</span>
 
     </aside>
 
@@ -875,6 +965,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -911,6 +1002,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
                                     </dd>
                                             </dl>
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool</span>
@@ -931,7 +1024,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">209</span>
+    <span class="phpdocumentor-element-found-in__line">214</span>
 
     </aside>
 
@@ -939,10 +1032,11 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getFromName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filename</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getFromName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filename</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -959,9 +1053,11 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
+        <span class="phpdocumentor-signature__response_type">bool|string</span>
                     &mdash;
                 <section class="phpdocumentor-description"><p>$contents File string contents</p>
 </section>
@@ -995,6 +1091,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1005,6 +1102,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1040,6 +1139,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1050,6 +1150,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1073,7 +1175,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">133</span>
 
     </aside>
 
@@ -1085,6 +1187,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1110,6 +1213,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool</span>
@@ -1130,7 +1235,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">232</span>
+    <span class="phpdocumentor-element-found-in__line">237</span>
 
     </aside>
 
@@ -1142,6 +1247,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1167,6 +1273,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool</span>
@@ -1187,7 +1295,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">284</span>
+    <span class="phpdocumentor-element-found-in__line">291</span>
 
     </aside>
 
@@ -1199,6 +1307,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1224,6 +1333,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool</span>
@@ -1244,7 +1355,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">318</span>
+    <span class="phpdocumentor-element-found-in__line">328</span>
 
     </aside>
 
@@ -1256,6 +1367,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1292,6 +1404,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
                                     </dd>
                                             </dl>
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool</span>
@@ -1312,7 +1426,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">352</span>
+    <span class="phpdocumentor-element-found-in__line">362</span>
 
     </aside>
 
@@ -1324,6 +1438,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1337,6 +1452,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1364,7 +1481,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">382</span>
+    <span class="phpdocumentor-element-found-in__line">392</span>
 
     </aside>
 
@@ -1376,6 +1493,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1405,6 +1523,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
                                     </dd>
                                             </dl>
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">bool|string</span>
@@ -1425,7 +1545,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Shared/ZipArchive.php"><a href="files/src-phpword-shared-ziparchive.html"><abbr title="src/PhpWord/Shared/ZipArchive.php">ZipArchive.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">401</span>
+    <span class="phpdocumentor-element-found-in__line">411</span>
 
     </aside>
 
@@ -1437,6 +1557,7 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1450,6 +1571,8 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1572,41 +1695,42 @@ emulation. Only needed PHP ZipArchive features are implemented.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#constant_CREATE">CREATE</a></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#constant_OVERWRITE">OVERWRITE</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#constant_CREATE">CREATE</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#constant_OVERWRITE">OVERWRITE</a></li>
                                             </ul>
                 </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_filename">$filename<a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_numFiles">$numFiles<a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_tempDir">$tempDir<a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_usePclzip">$usePclzip<a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_zip">$zip<a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html"></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_filename">$filename</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_numFiles">$numFiles</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_tempDir">$tempDir</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_usePclzip">$usePclzip</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#property_zip">$zip</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method___call">__call()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method___construct">__construct()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addFile">addFile()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addFromString">addFromString()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_close">close()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_extractTo">extractTo()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_getFromName">getFromName()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_getNameIndex">getNameIndex()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_locateName">locateName()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_open">open()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipAddFile">pclzipAddFile()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipAddFromString">pclzipAddFromString()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipExtractTo">pclzipExtractTo()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipGetFromName">pclzipGetFromName()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipGetNameIndex">pclzipGetNameIndex()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipLocateName">pclzipLocateName()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method___call">__call()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addEmptyDir">addEmptyDir()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addFile">addFile()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_addFromString">addFromString()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_close">close()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_extractTo">extractTo()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_getFromName">getFromName()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_getNameIndex">getNameIndex()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_locateName">locateName()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_open">open()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipAddFile">pclzipAddFile()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipAddFromString">pclzipAddFromString()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipExtractTo">pclzipExtractTo()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipGetFromName">pclzipGetFromName()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipGetNameIndex">pclzipGetNameIndex()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Shared-ZipArchive.html#method_pclzipLocateName">pclzipLocateName()</a></li>
                                     </ul>
             </li>
                     </ul>

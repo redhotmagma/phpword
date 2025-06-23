@@ -54,7 +54,7 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -three phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="namespaces/phpoffice.html" class="">PhpOffice</a>
@@ -67,7 +67,7 @@
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
     <a href="packages/Application.html" class="">Application</a>
@@ -75,14 +75,14 @@
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
@@ -122,11 +122,12 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
             <p class="phpdocumentor-summary">Shape style.</p>
+
 
 
 
@@ -157,6 +158,8 @@
 
 
 
+
+
 <h3 id="toc">
     Table of Contents
     <a href="classes/PhpOffice-PhpWord-Style-Shape.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -178,77 +181,70 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_aliases">$aliases</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_aliases">$aliases</a>
     <span>
                         &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd>Aliases.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_index">$index</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_index">$index</a>
     <span>
                         &nbsp;: null|int            </span>
 </dt>
 <dd>Index number in Style collection for named style.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_styleName">$styleName</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_styleName">$styleName</a>
     <span>
                         &nbsp;: string|null            </span>
 </dt>
 <dd>Style name.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_extrusion">$extrusion</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#property_extrusion">$extrusion</a>
     <span>
                         &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Extrusion.html"><abbr title="\PhpOffice\PhpWord\Style\Extrusion">Extrusion</abbr></a>            </span>
 </dt>
 <dd>3D extrusion.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_fill">$fill</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#property_fill">$fill</a>
     <span>
                         &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Fill.html"><abbr title="\PhpOffice\PhpWord\Style\Fill">Fill</abbr></a>            </span>
 </dt>
 <dd>Fill.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_frame">$frame</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#property_frame">$frame</a>
     <span>
                         &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Frame.html"><abbr title="\PhpOffice\PhpWord\Style\Frame">Frame</abbr></a>            </span>
 </dt>
 <dd>Frame.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_isAuto">$isAuto</a>
-    <span>
-                        &nbsp;: bool            </span>
-</dt>
-<dd>Is this an automatic style? (Used primarily in OpenDocument driver).</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_outline">$outline</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#property_outline">$outline</a>
     <span>
                         &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Outline.html"><abbr title="\PhpOffice\PhpWord\Style\Outline">Outline</abbr></a>            </span>
 </dt>
 <dd>Outline.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_points">$points</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#property_points">$points</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
 <dd>Points.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_roundness">$roundness</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#property_roundness">$roundness</a>
     <span>
                         &nbsp;: float|int            </span>
 </dt>
 <dd>Roundness measure of corners; 0 = straightest (rectangular); 1 = roundest (circle/oval).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_shadow">$shadow</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#property_shadow">$shadow</a>
     <span>
                         &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Shadow.html"><abbr title="\PhpOffice\PhpWord\Style\Shadow">Shadow</abbr></a>            </span>
 </dt>
@@ -263,231 +259,230 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Create a new instance.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getChildStyleValue">getChildStyleValue()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getChildStyleValue">getChildStyleValue()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Return style value of child style object, e.g. `left` from `Indentation` child style of `Paragraph`.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getExtrusion">getExtrusion()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getExtrusion">getExtrusion()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Extrusion.html"><abbr title="\PhpOffice\PhpWord\Style\Extrusion">Extrusion</abbr></a>    </span>
 </dt>
 <dd>Get 3D extrusion.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getFill">getFill()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getFill">getFill()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Fill.html"><abbr title="\PhpOffice\PhpWord\Style\Fill">Fill</abbr></a>    </span>
 </dt>
 <dd>Get fill.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getFrame">getFrame()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getFrame">getFrame()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Frame.html"><abbr title="\PhpOffice\PhpWord\Style\Frame">Frame</abbr></a>    </span>
 </dt>
 <dd>Get frame.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getIndex">getIndex()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getIndex">getIndex()</a>
     <span>
                                 &nbsp;: null|int    </span>
 </dt>
 <dd>Get index number.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getOutline">getOutline()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getOutline">getOutline()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Outline.html"><abbr title="\PhpOffice\PhpWord\Style\Outline">Outline</abbr></a>    </span>
 </dt>
 <dd>Get outline.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getPoints">getPoints()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getPoints">getPoints()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 <dd>Get points.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getRoundness">getRoundness()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getRoundness">getRoundness()</a>
     <span>
                                 &nbsp;: float|int    </span>
 </dt>
 <dd>Get roundness.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getShadow">getShadow()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getShadow">getShadow()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpOffice-PhpWord-Style-Shadow.html"><abbr title="\PhpOffice\PhpWord\Style\Shadow">Shadow</abbr></a>    </span>
 </dt>
 <dd>Get shadow.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getStyleName">getStyleName()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getStyleName">getStyleName()</a>
     <span>
                                 &nbsp;: string|null    </span>
 </dt>
 <dd>Get style name.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_isAuto">isAuto()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_isAuto">isAuto()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Get is automatic style flag.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setAuto">setAuto()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setAuto">setAuto()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set is automatic style flag.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setExtrusion">setExtrusion()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setExtrusion">setExtrusion()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set 3D extrusion.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setFill">setFill()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setFill">setFill()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set fill.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setFrame">setFrame()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setFrame">setFrame()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set frame.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setIndex">setIndex()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setIndex">setIndex()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set index number.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setOutline">setOutline()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setOutline">setOutline()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set outline.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setPoints">setPoints()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setPoints">setPoints()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set points.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setRoundness">setRoundness()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setRoundness">setRoundness()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set roundness.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setShadow">setShadow()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setShadow">setShadow()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set shadow.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleByArray">setStyleByArray()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleByArray">setStyleByArray()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set style by using associative array.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleName">setStyleName()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleName">setStyleName()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set style name.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleValue">setStyleValue()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleValue">setStyleValue()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set style value template method.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setBoolVal">setBoolVal()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setBoolVal">setBoolVal()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Set bool value.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setEnumVal">setEnumVal()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setEnumVal">setEnumVal()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Set enum value.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setFloatVal">setFloatVal()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setFloatVal">setFloatVal()</a>
     <span>
                                 &nbsp;: null|float    </span>
 </dt>
 <dd>Set float value: Convert string that contains only numeric into float.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setIntVal">setIntVal()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setIntVal">setIntVal()</a>
     <span>
                                 &nbsp;: null|int    </span>
 </dt>
 <dd>Set integer value: Convert string that contains only numeric into integer.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setNonEmptyVal">setNonEmptyVal()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setNonEmptyVal">setNonEmptyVal()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 <dd>Set default for null and empty value.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setNumericVal">setNumericVal()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setNumericVal">setNumericVal()</a>
     <span>
                                 &nbsp;: null|float|int    </span>
 </dt>
 <dd>Set numeric value.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setObjectVal">setObjectVal()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setObjectVal">setObjectVal()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd>Set object value.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setPairedVal">setPairedVal()</a>
+    <a class="" href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setPairedVal">setPairedVal()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 <dd>Set $property value and set $pairProperty = false when $value = true.</dd>
 
     </dl>
-
 
 
 
@@ -505,32 +500,37 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_aliases">
         $aliases
         <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_aliases" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Aliases.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$aliases</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -539,27 +539,28 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_index">
         $index
         <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_index" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Index number in Style collection for named style.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">null|int</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">null|int</span>
     <span class="phpdocumentor-signature__name">$index</span>
     </code>
 
@@ -569,33 +570,38 @@
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_styleName">
         $styleName
         <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_styleName" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Style name.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">string|null</span>
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">string|null</span>
     <span class="phpdocumentor-signature__name">$styleName</span>
     </code>
 
@@ -603,33 +609,38 @@
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_extrusion">
         $extrusion
         <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_extrusion" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">84</span>
+    <span class="phpdocumentor-element-found-in__line">85</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">3D extrusion.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Extrusion.html"><abbr title="\PhpOffice\PhpWord\Style\Extrusion">Extrusion</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Extrusion.html"><abbr title="\PhpOffice\PhpWord\Style\Extrusion">Extrusion</abbr></a></span>
     <span class="phpdocumentor-signature__name">$extrusion</span>
     </code>
 
@@ -637,33 +648,38 @@
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_fill">
         $fill
         <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_fill" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Fill.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Fill.html"><abbr title="\PhpOffice\PhpWord\Style\Fill">Fill</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Fill.html"><abbr title="\PhpOffice\PhpWord\Style\Fill">Fill</abbr></a></span>
     <span class="phpdocumentor-signature__name">$fill</span>
     </code>
 
@@ -671,33 +687,38 @@
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_frame">
         $frame
         <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_frame" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Frame.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Frame.html"><abbr title="\PhpOffice\PhpWord\Style\Frame">Frame</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Frame.html"><abbr title="\PhpOffice\PhpWord\Style\Frame">Frame</abbr></a></span>
     <span class="phpdocumentor-signature__name">$frame</span>
     </code>
 
@@ -705,54 +726,9 @@
     
     
 
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_isAuto">
-        $isAuto
-        <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_isAuto" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">60</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Is this an automatic style? (Used primarily in OpenDocument driver).</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">bool</span>
-    <span class="phpdocumentor-signature__name">$isAuto</span>
-     = <span class="phpdocumentor-signature__default-value">false</span></code>
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_isAuto#tags" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">since</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                            <span class="phpdocumentor-tag-link">0.11.0</span>
-                                                                                
-                                             
-                                    </dd>
-                                            </dl>
 
 </article>
                     <article
@@ -760,27 +736,28 @@
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_outline">
         $outline
         <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_outline" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Outline.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Outline.html"><abbr title="\PhpOffice\PhpWord\Style\Outline">Outline</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Outline.html"><abbr title="\PhpOffice\PhpWord\Style\Outline">Outline</abbr></a></span>
     <span class="phpdocumentor-signature__name">$outline</span>
     </code>
 
@@ -788,33 +765,38 @@
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_points">
         $points
         <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_points" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Points.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">string</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$points</span>
     </code>
 
@@ -830,33 +812,38 @@
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_roundness">
         $roundness
         <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_roundness" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Roundness measure of corners; 0 = straightest (rectangular); 1 = roundest (circle/oval).</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">float|int</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">float|int</span>
     <span class="phpdocumentor-signature__name">$roundness</span>
     </code>
 
@@ -866,38 +853,47 @@
     
     
 
+    
+
+    
+
 </article>
                     <article
         class="
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_shadow">
         $shadow
         <a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_shadow" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
         <p class="phpdocumentor-summary">Shadow.</p>
 
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Shadow.html"><abbr title="\PhpOffice\PhpWord\Style\Shadow">Shadow</abbr></a></span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpOffice-PhpWord-Style-Shadow.html"><abbr title="\PhpOffice\PhpWord\Style\Shadow">Shadow</abbr></a></span>
     <span class="phpdocumentor-signature__name">$shadow</span>
     </code>
 
     
     
+    
+
+    
+
     
 
 </article>
@@ -923,7 +919,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 
     </aside>
 
@@ -936,6 +932,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -946,6 +943,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -965,7 +964,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">144</span>
+    <span class="phpdocumentor-element-found-in__line">145</span>
 
     </aside>
 
@@ -977,6 +976,7 @@
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1014,6 +1014,8 @@
                                             </dl>
 
     
+
+    
 </article>
                     <article
         class="phpdocumentor-element
@@ -1029,7 +1031,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">245</span>
+    <span class="phpdocumentor-element-found-in__line">246</span>
 
     </aside>
 
@@ -1043,6 +1045,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1065,7 +1070,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">173</span>
+    <span class="phpdocumentor-element-found-in__line">174</span>
 
     </aside>
 
@@ -1079,6 +1084,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1101,7 +1109,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">149</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 
     </aside>
 
@@ -1115,6 +1123,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1137,7 +1148,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 
     </aside>
 
@@ -1151,6 +1162,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1173,7 +1187,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">197</span>
+    <span class="phpdocumentor-element-found-in__line">198</span>
 
     </aside>
 
@@ -1187,6 +1201,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1209,7 +1226,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
@@ -1223,6 +1240,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1245,7 +1265,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">125</span>
+    <span class="phpdocumentor-element-found-in__line">126</span>
 
     </aside>
 
@@ -1259,6 +1279,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1281,7 +1304,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">221</span>
+    <span class="phpdocumentor-element-found-in__line">222</span>
 
     </aside>
 
@@ -1295,6 +1318,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1317,7 +1343,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">68</span>
 
     </aside>
 
@@ -1331,6 +1357,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1353,7 +1382,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">116</span>
 
     </aside>
 
@@ -1367,6 +1396,9 @@
         </div>
     
     
+    
+    
+
     
 
             <section>
@@ -1389,7 +1421,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">127</span>
+    <span class="phpdocumentor-element-found-in__line">128</span>
 
     </aside>
 
@@ -1402,6 +1434,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1412,6 +1445,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1435,7 +1470,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">257</span>
+    <span class="phpdocumentor-element-found-in__line">258</span>
 
     </aside>
 
@@ -1448,6 +1483,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1458,6 +1494,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1481,7 +1519,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">185</span>
+    <span class="phpdocumentor-element-found-in__line">186</span>
 
     </aside>
 
@@ -1494,6 +1532,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1504,6 +1543,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1527,7 +1568,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">161</span>
+    <span class="phpdocumentor-element-found-in__line">162</span>
 
     </aside>
 
@@ -1540,6 +1581,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1550,6 +1592,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1573,7 +1617,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">104</span>
 
     </aside>
 
@@ -1586,6 +1630,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1596,6 +1641,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1619,7 +1666,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">209</span>
+    <span class="phpdocumentor-element-found-in__line">210</span>
 
     </aside>
 
@@ -1632,6 +1679,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1642,6 +1690,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1665,7 +1715,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">113</span>
+    <span class="phpdocumentor-element-found-in__line">114</span>
 
     </aside>
 
@@ -1678,6 +1728,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1688,6 +1739,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1711,7 +1764,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">137</span>
+    <span class="phpdocumentor-element-found-in__line">138</span>
 
     </aside>
 
@@ -1724,6 +1777,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1734,6 +1788,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1757,7 +1813,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/Shape.php"><a href="files/src-phpword-style-shape.html"><abbr title="src/PhpWord/Style/Shape.php">Shape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">233</span>
+    <span class="phpdocumentor-element-found-in__line">234</span>
 
     </aside>
 
@@ -1770,6 +1826,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1780,6 +1837,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1803,7 +1862,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">193</span>
+    <span class="phpdocumentor-element-found-in__line">194</span>
 
     </aside>
 
@@ -1816,6 +1875,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1826,6 +1886,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1849,7 +1911,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">79</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
     </aside>
 
@@ -1862,6 +1924,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1872,6 +1935,8 @@
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -1895,7 +1960,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">168</span>
+    <span class="phpdocumentor-element-found-in__line">169</span>
 
     </aside>
 
@@ -1907,6 +1972,7 @@
 
     <div class="phpdocumentor-label-line">
         </div>
+    
         <section class="phpdocumentor-description"><p>Some child classes have their own specific overrides.
 Backward compability check for versions &lt; 0.10.0 which use underscore
 prefix for their private properties.
@@ -1933,6 +1999,8 @@ Check if the set method is exists. Throws an exception?</p>
 
     
 
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">self</span>
@@ -1953,7 +2021,7 @@ Check if the set method is exists. Throws an exception?</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">227</span>
+    <span class="phpdocumentor-element-found-in__line">228</span>
 
     </aside>
 
@@ -1965,6 +2033,7 @@ Check if the set method is exists. Throws an exception?</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1983,6 +2052,8 @@ Check if the set method is exists. Throws an exception?</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -2006,7 +2077,7 @@ Check if the set method is exists. Throws an exception?</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">304</span>
+    <span class="phpdocumentor-element-found-in__line">305</span>
 
     </aside>
 
@@ -2018,6 +2089,7 @@ Check if the set method is exists. Throws an exception?</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -2047,6 +2119,8 @@ Check if the set method is exists. Throws an exception?</p>
     
 
     
+
+    
 </article>
                     <article
         class="phpdocumentor-element
@@ -2062,7 +2136,7 @@ Check if the set method is exists. Throws an exception?</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">283</span>
+    <span class="phpdocumentor-element-found-in__line">284</span>
 
     </aside>
 
@@ -2074,6 +2148,7 @@ Check if the set method is exists. Throws an exception?</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -2092,6 +2167,8 @@ Check if the set method is exists. Throws an exception?</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -2115,7 +2192,7 @@ Check if the set method is exists. Throws an exception?</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">261</span>
+    <span class="phpdocumentor-element-found-in__line">262</span>
 
     </aside>
 
@@ -2127,6 +2204,7 @@ Check if the set method is exists. Throws an exception?</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -2145,6 +2223,8 @@ Check if the set method is exists. Throws an exception?</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -2168,7 +2248,7 @@ Check if the set method is exists. Throws an exception?</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">210</span>
+    <span class="phpdocumentor-element-found-in__line">211</span>
 
     </aside>
 
@@ -2180,6 +2260,7 @@ Check if the set method is exists. Throws an exception?</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -2198,6 +2279,8 @@ Check if the set method is exists. Throws an exception?</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -2221,7 +2304,7 @@ Check if the set method is exists. Throws an exception?</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpWord/Style/AbstractStyle.php"><a href="files/src-phpword-style-abstractstyle.html"><abbr title="src/PhpWord/Style/AbstractStyle.php">AbstractStyle.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">244</span>
+    <span class="phpdocumentor-element-found-in__line">245</span>
 
     </aside>
 
@@ -2233,6 +2316,7 @@ Check if the set method is exists. Throws an exception?</p>
 
     <div class="phpdocumentor-label-line">
         </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -2251,6 +2335,8 @@ Check if the set method is exists. Throws an exception?</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -2287,6 +2373,7 @@ Check if the set method is exists. Throws an exception?</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2311,6 +2398,8 @@ Check if the set method is exists. Throws an exception?</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -2343,6 +2432,7 @@ Check if the set method is exists. Throws an exception?</p>
     <div class="phpdocumentor-label-line">
         </div>
     
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2367,6 +2457,8 @@ Check if the set method is exists. Throws an exception?</p>
                 
             </dd>
             </dl>
+
+    
 
     
 
@@ -2489,55 +2581,54 @@ Check if the set method is exists. Throws an exception?</p>
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_aliases">$aliases<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_index">$index<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_styleName">$styleName<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_extrusion">$extrusion<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_fill">$fill<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_frame">$frame<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_isAuto">$isAuto<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_outline">$outline<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_points">$points<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_roundness">$roundness<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
-                                                    <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_shadow">$shadow<a href="classes/PhpOffice-PhpWord-Style-Shape.html"></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_aliases">$aliases</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_index">$index</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#property_styleName">$styleName</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_extrusion">$extrusion</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_fill">$fill</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_frame">$frame</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_outline">$outline</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_points">$points</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_roundness">$roundness</a></li>
+                                                    <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#property_shadow">$shadow</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method___construct">__construct()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getChildStyleValue">getChildStyleValue()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getExtrusion">getExtrusion()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getFill">getFill()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getFrame">getFrame()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getIndex">getIndex()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getOutline">getOutline()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getPoints">getPoints()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getRoundness">getRoundness()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getShadow">getShadow()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getStyleName">getStyleName()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_isAuto">isAuto()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setAuto">setAuto()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setExtrusion">setExtrusion()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setFill">setFill()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setFrame">setFrame()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setIndex">setIndex()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setOutline">setOutline()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setPoints">setPoints()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setRoundness">setRoundness()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setShadow">setShadow()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleByArray">setStyleByArray()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleName">setStyleName()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleValue">setStyleValue()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setBoolVal">setBoolVal()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setEnumVal">setEnumVal()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setFloatVal">setFloatVal()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setIntVal">setIntVal()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setNonEmptyVal">setNonEmptyVal()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setNumericVal">setNumericVal()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setObjectVal">setObjectVal()</a></li>
-                                            <li><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setPairedVal">setPairedVal()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getChildStyleValue">getChildStyleValue()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getExtrusion">getExtrusion()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getFill">getFill()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getFrame">getFrame()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getIndex">getIndex()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getOutline">getOutline()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getPoints">getPoints()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getRoundness">getRoundness()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_getShadow">getShadow()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_getStyleName">getStyleName()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_isAuto">isAuto()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setAuto">setAuto()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setExtrusion">setExtrusion()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setFill">setFill()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setFrame">setFrame()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setIndex">setIndex()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setOutline">setOutline()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setPoints">setPoints()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setRoundness">setRoundness()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-Shape.html#method_setShadow">setShadow()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleByArray">setStyleByArray()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleName">setStyleName()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setStyleValue">setStyleValue()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setBoolVal">setBoolVal()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setEnumVal">setEnumVal()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setFloatVal">setFloatVal()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setIntVal">setIntVal()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setNonEmptyVal">setNonEmptyVal()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setNumericVal">setNumericVal()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setObjectVal">setObjectVal()</a></li>
+                                            <li class=""><a href="classes/PhpOffice-PhpWord-Style-AbstractStyle.html#method_setPairedVal">setPairedVal()</a></li>
                                     </ul>
             </li>
                     </ul>
